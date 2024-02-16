@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 8px 18px 0px 10px;
+
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 0px 9px 0px 9px;
+    font-family: arial;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.menu-icon {
+    width: 30px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.menu-icon:hover {
+    opacity: 0.5;
+    box-shadow: 0px 5px 29px rgb(128, 128, 128, 0.626) inset;
+
+}
+
+.reg {
+    font-style: normal;
+    font-family: Helvetica;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 10px 25px 10px 23px;
+    background-color: #0066ff;
+    color: aliceblue;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+}
+
+.google-logo {
+    display: block;
+    margin: 0 auto;
+    padding-top: 9px;
+}
+
+.mid-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 24px;
+    margin-left: auto;
+    width: 40%;
+}
+
+#search-icon img {
+    position: relative;
+    top: 2px;
+    right: -9px;
+    margin-left: 6px;
+    width: 13px;
+    height: 12px;
+
+}
+
+.right-div {
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.right-div img {
+    padding: 0px 8px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    border: 0.5px solid #ddd;
+    width: 100%;
+    margin-left: auto;
+
+}
+
+.right-icons img {
+    position: relative;
+    top: 3px;
+    left: -9px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.box input {
+    padding: 12px;
+    border: none;
+    width: 450px;
+    height: 44px;
+    border: 0.5px #ddd;
+    font-size: 16px;
+
+}
+.oop{
+    border-left: 1px solid #dadce0;
+    height: 100%;
+}
+.box input:focus {
+
+    outline: none;
+    border: none;
+}
+
+.box:hover {
+    /* opacity: 0.5; */
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+
+}
+
+.t-d {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 7px;
+
+}
+
+.t-d button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.t-d button:hover {
+    box-shadow: 0 1px 5px rgb(32 33 36 / 28%);
+}
+
+.langs {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    line-height: 28px;
+    font-weight: 400;
+    font-size: 13px;
+    flex-wrap: wrap;
+}
+
+.langs a {
+    text-decoration: none;
+    padding: 0px 4px 0px 4px;
+}
+
+.langs a:hover {
+    text-decoration: underline;
+}
+
+.g-of {
+    color: #4d5156;
+
+}
+footer{
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 100px;
+    flex-direction: column;
+
+}
+
+.country{
+    padding: 15px 30px;
+color: #3c4043;
+font-family: Arial, sans-serif;
+border-bottom: 1px solid #dadce0;
+font-size: 15px;
+
+
+}
+.google-logo {
+  max-width: 100%; 
+  height: auto; 
+  display: block;
+  margin: 0 auto; 
+}
+.f1{
+margin-left: 20px;
+/* padding-top: 18px; */
+/* padding-bottom: 18px; */
+}
+
+
+.f1 ul li a{
+    padding-top: 18px;
+    padding-bottom: 18px;
+    }
+.f
+footer ul{
+float: left;
+padding: 1px;
+}
+
+footer ul li{
+display: inline;
+color: #3c4043;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+padding: 13px;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+footer ul a:hover{
+text-decoration: underline;
+}
+.f-right{
+float: right;
+}
+
+@media (max-width: 768px) {
+    .mid-section {
+      width: 90%;
+     margin-left:5%;
+    }
+    input[type="search"] {
+      width: 70%;
+    }
+    button {
+      font-size: 14px;
+    }
+    .footer {
+      height: 80px;
+    }
+    .f1, .f2 {
+      flex-direction: column;
+    }
+  }
+
+  
+  @media (max-width: 320px) {
+    form {
+      max-width: 90vw;
+    }
+    input[type="search"] {
+      width: 60%;
+    }
+    .footer {
+      height: 60px;
+    }
+    .f1 li, .f2 li {
+      font-size: 12px;
+    }
+  }
+
+
+    
